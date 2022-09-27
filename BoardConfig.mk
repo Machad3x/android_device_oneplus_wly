@@ -10,7 +10,7 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/wly
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # DTB
 TARGET_KERNEL_CONFIG += vendor/oplus/wly.config
