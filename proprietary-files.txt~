@@ -136,7 +136,7 @@ system_ext/lib64/libHeifEncoderWrapper.so|e319509ebbd59fddc4fe6dfee6042f1950c39f
 system_ext/lib64/libNativeWinBuffExchange.so|903b72fb7433677347903283e2a2472cb9c0ef57
 system_ext/lib64/liboplusheifwriter.so|f6026b341075a78b8f144987e9d17d623160b593
 system_ext/lib64/libpenguin.so:vendor/lib64/libpenguin.so|7c6f7b27444242ad30300c2f36fcd936f3d8d68b
-system/framework/oplus-support-wrapper.jar|8dd66d1455749fc6ea0afe4f5baa5ded1756a53f
+-system/framework/oplus-support-wrapper.jar|8dd66d1455749fc6ea0afe4f5baa5ded1756a53f
 odm/lib64/libtrace.so|2a8c19d8e45ba3ce6a3a585f1f3228cc721658b8
 
 # Camera
@@ -1210,6 +1210,7 @@ system_ext/lib64/liboplusHeifDecoderImpl.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 system_ext/lib/libHeifEncoderWrapper.so
 system_ext/lib/libNativeWinBuffExchange.so
+system/framework/oplus-support-wrapper.jar
 system_ext/lib64/libAIBrightness.so
 system_ext/lib64/liboplus_10bitHeif.so
 vendor/lib64/android.hardware.camera.common@1.0.so
