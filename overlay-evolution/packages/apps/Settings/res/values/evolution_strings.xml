@@ -8,5 +8,5 @@
 
     <!-- Android version screen, build maintainer -->
     <string name="build_maintainer_summary" translatable="false">Machad3x</string>
-    <string name="build_maintainer_donate_url" translatable="false">Paypal: machad3xdev@gmail.com</string>
+    <string name="build_maintainer_donate_url" translatable="false">linktr.ee/Machad3x</string>
 </resources>
