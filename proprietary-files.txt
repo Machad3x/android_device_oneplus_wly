@@ -96,7 +96,6 @@ my_product/lib64/libAvatarEngineRenderNative.so:system_ext/lib64/libAvatarEngine
 my_product/lib64/libCombineLut.so:system_ext/lib64/libCombineLut.so|9f2a804441be189477d9c75c6e25ff92391b8a78
 my_product/lib64/libCombineLutJni.so:system_ext/lib64/libCombineLutJni.so|7ac9c8b25987fa142f47ce76f9d7d4a86b7195ae
 my_product/lib64/libFileExtender-jni.so:system_ext/lib64/libFileExtender-jni.so|f0a72d1a4e593620cfe697ad5d41a7f798e5d2e9
-my_product/lib64/libNativeWinBuffExchange.so:system_ext/lib64/libNativeWinBuffExchange.so|903b72fb7433677347903283e2a2472cb9c0ef57
 my_product/lib64/libOplusBlurPreviewJNI.so:system_ext/lib64/libOplusBlurPreviewJNI.so|ac7569de4ee14f002d5917f54b9b55bd7596a558
 my_product/lib64/libSuperTextWrapper.so:system_ext/lib64/libSuperTextWrapper.so|61642d2f279361986ef1e54ab18917c61318853b
 my_product/lib64/libXDocProcessSDK-jni.so:system_ext/lib64/libXDocProcessSDK-jni.so|42a1a638ed0e6202ad01a0bab153f44ecee7b089
@@ -1004,7 +1003,6 @@ odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
 odm/lib64/libCOppLceTonemapAPI.so
-odm/lib64/libDeVIS.so
 odm/lib64/libFaceBeautyJni.so
 odm/lib64/libHIS.so
 odm/lib64/libOGLManager.so
@@ -1198,18 +1196,12 @@ vendor/lib64/camera/components/com.bots.node.vendortagwrite.so
 odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
-odm/lib/libAlgoInterface.so
-odm/lib/libc++_shared.so
-odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
-odm/lib/libapsultrahdr.so
 odm/lib64/libapsultrahdr.so
 system_ext/lib64/libHeifWinBufExchg-jni.so
 system_ext/lib64/liboplus_heifconverter.so
 system_ext/lib64/liboplusHeifDecoderImpl.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
-system_ext/lib/libHeifEncoderWrapper.so
-system_ext/lib/libNativeWinBuffExchange.so
 system_ext/lib64/libAIBrightness.so
 system_ext/lib64/liboplus_10bitHeif.so
 vendor/lib64/android.hardware.camera.common@1.0.so
@@ -1417,8 +1409,6 @@ vendor/lib64/vendor.qti.hardware.camera.aon@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so
-vendor/lib/libcamerapostproc.so
-vendor/lib/libcamxexternalformatutils.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
