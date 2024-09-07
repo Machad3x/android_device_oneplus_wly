@@ -1127,7 +1127,6 @@ odm/lib64/libRedeyeReduce.so
 odm/lib64/libSNPE.so
 odm/lib64/libstblur_api.so
 odm/lib64/libstblur_capture_api.so
-odm/lib64/libstdc++.so
 odm/lib64/libstface_fd_api.so
 odm/lib64/libstfaceunlockocl.so
 odm/lib64/libstfd_mobile_api.so
