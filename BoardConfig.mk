@@ -12,8 +12,10 @@ DEVICE_PATH := device/oneplus/wly
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-# DTB
-TARGET_KERNEL_CONFIG += vendor/oplus/wly.config
+# DTB/O
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilts/dtb.img
+BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
