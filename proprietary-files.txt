@@ -1141,7 +1141,6 @@ odm/lib64/libyuv2.so
 odm/lib64/libSuperRaw.so
 odm/lib64/libSuperTextWrapper.so
 odm/lib64/libTrafficMode.so
-odm/lib64/libui.so:odm/lib64/libui-oos.so
 odm/lib64/libVDBayerHDR.so
 odm/lib64/libVDBlurless.so
 odm/lib64/libVDDualCameraBlurlessAPI.so
