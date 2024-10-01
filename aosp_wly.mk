@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from wly device
 $(call inherit-product, device/oneplus/wly/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_wly
+PRODUCT_NAME := aosp_wly
 PRODUCT_DEVICE := wly
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -31,17 +31,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/NE2213/OP516FL1:14/UKQ1.230924.001/S.173e81e-152ed-152ee:user/release-keys
-
-# Matrixx
-MATRIXX_BUILD_TYPE := Unofficial
-MATRIXX_MAINTAINER := Machad3x
-MATRIXX_CHIPSET := SM8450
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 1440x3216
-WITH_GMS := true
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
