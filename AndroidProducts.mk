@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_wly.mk
+    $(LOCAL_DIR)/custom_wly.mk
